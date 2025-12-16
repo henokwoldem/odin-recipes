@@ -1,0 +1,39 @@
+/* Site base styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    margin: 0;
+    background: #ffffff;
+}
+
+/* Centered content container: keeps body full-width for backgrounds */
+.site-wrapper {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px 16px;
+}
+
+.ingredients {
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+
+.instructions {
+    background: #fffef6;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 8px 0 16px 0;
+}
+
+ul, ol {
+    margin-left: 1.25rem;
+}
