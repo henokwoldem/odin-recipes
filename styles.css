@@ -37,3 +37,16 @@ img {
 ul, ol {
     margin-left: 1.25rem;
 }
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.titleText{
+    align-self: center;
+}
+.titleImage{
+    align-self: center;
+}
